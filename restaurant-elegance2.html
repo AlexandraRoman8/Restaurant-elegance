@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="ro">
+    <meta charset="utf-8">
+    <meta name="author" content="Roman Alexandra">
+    <meta name="keywords" content="restaurant, bar, meniu, food-menu, mâncare, elegance">
+    <meta name="description" content="Restaurantul Elegance este unul dintre cele mai exclusiviste locuri în care să vă satisfaceți toate poftele în materie de delicatese culinare și băuturi rafinate. Locația se regăsește în Cluj Napoca pe strada Alexandru Vaida Voievod, nr 6. Vă așteptăm cu o multitudine de rețete diverse din toate colțurile lumii.">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Restaurantul Elegance </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  </head>
+
+    <style>
+
+     @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@100;200;300;500&display=swap');
+
+     *  {
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      position: fixed;
+      padding: 20px;
+    }
+
+    .logo{
+      height: 65px;
+    }
+
+    h1{
+      padding: 30px;
+      margin: 20px;
+      font-size: 50px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+
+    h2{
+      padding: 30px;
+    }
+
+    p{
+      padding: 0px 15px 0px 15px;
+    }
+
+    h4{
+      padding: 5px;
+      background-color: rgba(255, 255, 255, 0.549)
+    }
+
+    .selector-widget {
+      box-sizing: content-box;
+    }
+
+    .boxed {
+      padding: 50px;
+      margin: 50px;
+    }
+
+    .icon{
+      display: flex;
+      height: 30px;
+    }
+
+    ul{
+      list-style-type: none;
+    }
+
+    footer{
+      background-color: rgb(41, 40, 40);
+    }
+     
+    </style>
+
+<body> 
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#index"><img src="logooo.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Despre">Despre noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Personal">Personal</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Meniu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Meniu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Preparate culinare">Preparate culinare</a></li>
+                <li><a class="dropdown-item" href="#Bar">Bar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Recenzii">Recenzii</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1 id="index">Restaurantul Elegance</h1>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="opem.jpg" class="d-block w-100" alt="Semn pe care scrie Deschis">
+        </div>
+        <div class="carousel-item">
+          <img src="restaurant.jpg" class="d-block w-100" alt="Restaurantul Elegance în interior. Decorul este închis la culoare, având tonuri maronii și negre.">
+        </div>
+        <div class="carousel-item">
+          <img src="pahare.jpg" class="d-block w-100" alt="Câteva pahare pe niște mese din restaurant, toate ajanjate frumos și elegant.">
+        </div>
+        <div class="carousel-item">
+          <img src="bar.jpg" class="d-block w-100" alt="Barul frumos aranjat al Restaurantului Elegance">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="boxed">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">          
+            <h2 id="Despre">Despre noi</h2>
+
+            <p>Restaurantul Elegance va oferă o gamă variată de preparate, gata să vă satisfacă toate papilele gustative.</p>
+
+            <p>Deschis inițial ca o afacere de familie, Restaurantul Elegance a luat amploare mulțumită unicității regăsite in preparatele sale, dar și diversității pe care acesta o pune la dispoziția clienților săi. Îmbinând armonios arhitectura modernă cu gusturi autentice, restaurantul Elegance se face remarcat chiar și pe plan internațional!</p>
+          </div>  
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-12">          
+              <h2 id="Personal">Personalul nostru</h2>
+            </div>  
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="bucatar principal.jpg" class="card-img-top" alt="Bucătarul Kristian Alstadt">
+            <div class="card-body">
+              <h5 class="card-title">Kristian Alstadt</h5>
+              <p class="card-text">Chef Kristian Alstadt este bucătarul principal al restaurantului. Acesta vă prepară majoritatea delicateselor, inclusiv preparatele cu pește norvegian.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="bucatar asiatic.jpg" class="card-img-top" alt="Bucătarul Miguel Gomez">
+            <div class="card-body">
+              <h5 class="card-title">Miguel Gomez</h5>
+              <p class="card-text">Chef Miguel Gomez este specializat în prepararea rețetelor italienești sau asiatice, având stagiaturi în străinătate legate de prepararea acestor mâncăruri.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="patisera.jpg" class="card-img-top" alt="Patisera restaurantului, Andreea Avram">
+            <div class="card-body">
+              <h5 class="card-title">Andreea Avram</h5>
+              <p class="card-text">Patisera noastră, Andreea Avram este una din cei mai pricepuți patiseri la nivel mondial, deserturile ei fiind recompensate chiar cu o stea Michelin.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-12">          
+              <h2 id="Meniu">Meniu</h2>
+            </div>  
+        </div>
+      </div>
+
+      <figure class="text-end">
+        <blockquote class="blockquote">
+          <p>Singurul moment potrivit pentru a mânca mâncare dietetică este timpul în care aștepți friptura să fie gata.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Julie Child <cite title="Source Title"> Mâncare</cite>
+        </figcaption>
+      </figure>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">          
+            <h3 id="Preparate culinare">Preparate culinare</h3>
+          </div>  
+        </div>
+      </div>
+
+      <div class="container-fluid"> 
+        <div class="row">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="fish.jpg" class="d-block w-100" alt="Preparat din pește cu salată asortată">
+                  <div class="carousel-caption d-block">
+                    <h4>Pește cu salată</h4>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="pizza1.jpg" class="d-block w-100" alt="Pizza cu salam, ardei și mozzarella.">
+                  <div class="carousel-caption d-block">
+                    <h4>Pizza Elegance</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="baking-blur-cake.jpg" class="d-block w-100" alt="Prăjitură Albă ca Zăpada, cu frișcă, cireșe și cafea. ">
+                  <div class="carousel-caption d-block">
+                    <h4>Prăjitură Albă ca Zăpada</h4>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              </div>
+            </div>
+          </div>
+      
+         <hr>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Pește cu salată
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Pește cu salată asortată preparat de Chef Kristian Alstadt.</strong> Pentru ca acest gen de mâncare să fie preparată este nevoie de ani de expeirență și de ore dedicate în bucătărie pentru a învăța secretele pregătirii unui pește crocant la exterior, dar moale și aromat la interior. Chef Alstadt vă încântă cu această rețetă și cu pește adus tocmai din Norvegia, țara lui natală.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Pizza Elegance
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Pizza specifică Restaurantului Elegance, preparată de Chef Miguel Gomez.</strong> Chef Gomez a umblat prin toate țările latine pentru a descoperi cele mai gustoase arome care se completează perfect, totul pentru a le aduce împreună și a asambla o pizza specială pentru restaurantul nostru, anume pizza Elegance. Acesta este singurul loc în care veți găsi acest gen de pizza.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Prăjitura Albă ca Zăpada
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Prăjitură preparată de Andreea Avram, specialistă în deserturi.</strong> Patisera noastră premiată cu o stea Michelin în materie de dulciuri este gata să vă încânte toate papilele gustative la orice oră. De asemenea, prăjitura care i-a adus steaua Michelin poate fi găsită exclusiv la restaurantul Elegance sub numele de Prăjitura Albă ca Zăpada. Vă așteptăm cu drag să încercați și alte deserturi faimoase și premiate cu stele Michelin.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxed">
+
+         <hr>
+
+          <div class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-6">
+              <img class="w-100 rounded pt-3" src="bucatar.jpg" alt="Un bucătar asiatic pregătind mâncare">
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6">
+              <p class="pt-3">Pe lângă chefii noștri specifici, o mulțime de bucătari celebri vă așteaptă la restaurantul Elegance pentru a vă încânta cu mâncăruri din toate colțurile lumii. Începând de la tradiționalele mâncăruri românești, la preparate indiene și chiar la ramen sau alte preparate asiatice. Chef Li Xen Su sau Chef Rădulescu vă așteaptă în serile de vineri pentru a vă delecta cu cele mai fine delicatese.</p>
+
+              <p>De asemenea, dacă reușiți să vă abțineți să nu fotografiați mâncarea, veți putea beneficia de o reducere de 20% la întreaga consumație!</p>
+
+              <p>Pentru mai multe rețete vă așteptăm la restaurant!</p>
+              <button type="button" class="btn btn-outline-primary"><a href id="index">Acasă</a></button>
+            </div>
+          </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">          
+              <h3 id="Bar">Bar</h3>
+            </div>  
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">          
+              <h2 id="Recenzii">Recenzii</h2>
+            </div>  
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="d-flex col-12 col-md-6 col-lg-6">
+              <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex col-12 col-md-6 col-lg-8">
+              <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div clas="container">
+          <div class="row">
+            <div class="col">
+              <p>Clienți mulțumiți în ultimul an:</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">          
+              <h2 id="Contact">Contact</h2>
+            </div>  
+          </div>
+        </div>
+      
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4"> 
+              <p>Ne puteți contacta prin:</p>
+              <button type="button" class="btn btn-outline-success"><a href="tel:+40730775375" target="_blank">Telefon</a></button>
+              <button type="button" class="btn btn-outline-success"><a href="mailto:restaurant.elegance@gmail.com" target="_blank">Adresă de mail</a></button>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-8"> 
+              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=alexandru vaida voievod cluj&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpedls.com/">Minecraft Download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="d-flex justify-content-between pt-3 mb-0">
+                <a href id="index">
+                  <img src="logooo.png" class="logo">
+                </a>
+          <div class="col justify-content-end">
+            <div class="col">
+              <ul class="d-flex justify-content-end me-3">
+                <li class="me-3">
+                  <a href="https://www.instagram.com/">
+                  <img class="icon" src="instagram.png" alt="icon instagram">
+                  </a>
+                </li>
+
+                <li class="me-3">
+                  <a href="https://www.facebook.com">
+                  <img class="icon" src="facebook.png" alt="icon facebook">
+                  </a>
+                </li>
+
+                <li class="me-3">
+                  <a href="https://twitter.com/i/flow/login">
+                  <img class="icon" src="twitter.png" alt="icon twitter">
+                  </a>
+                </li>
+              </ul>
+
+              </div>
+                <div class="text-center ">
+                  <div class="text-muted pb-3">© 2022 Rstnt, Ram</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+
+</body>
+</html>
